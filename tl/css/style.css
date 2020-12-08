@@ -1,0 +1,40 @@
+body{
+     margin: 2px;
+}
+
+#mainimg {
+    z-index:-1;
+    width: 100%;
+    height: 100vh;
+    /* opacity: 0; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+
+.jidori{
+     width: 45vw;
+     font-size:1em;
+     table-layout:auto;
+     color: white;
+     font-weight: bold;
+}
+.jidori td{
+     padding:0;
+     -moz-text-align-last: justify;
+     text-align-last: justify;
+     text-justify:inter-ideograph;
+     border:none;
+}
+
+#btn1{
+     width: 25vw;
+     color: white;
+     background: black;
+     border-color: black;
+     margin: 1px;
+}
